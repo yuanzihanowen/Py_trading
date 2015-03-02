@@ -1,7 +1,5 @@
 __author__ = 'zihanyuanowen'
 
-import requests
-import json
 import pandas as pd
 import numpy as np
 import os
@@ -22,6 +20,13 @@ def calculate_cci(security_name, period=15):
     df_md = abs(df_tp - df_md)*0.015
     df_cci = (df_tp - df_sma_tp)/df_md
     df_cci.to_csv(os.getcwd() +'/engine_output/' + security_name + '_cci.csv')
+    return df_cci
+
+
+def ts_model(df_cci, security_name):
+    #time series analysis of the CCI time series
+    
+    print(df_cci)
 
 
 if __name__ == '__main__':
@@ -32,4 +37,5 @@ if __name__ == '__main__':
     for security in security_list:
         if not os.path.exists(os.getcwd() +'/engine_output/'):
             os.makedirs(os.getcwd() +'/engine_output/')
-        calculate_cci(security)
+        df_cci = calculate_cci(security)
+        ts_model(df_cci, security)
