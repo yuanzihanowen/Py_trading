@@ -11,4 +11,4 @@ CCI is deemed to fluctruate between 100 and -100. There are rare cases in which 
 Based on my research during my 2-month research project during 2012 summer, the croston's method is the most straight forward and best strategy to forecast a intermittent pattern.
 
 
-Format: ![http://4.bp.blogspot.com/-hEenbTD1pA8/VmCMRNaNSyI/AAAAAAAABT8/upVA-3HCt3c/s1600/EUR_USD.png](url)
+Format: ![](http://4.bp.blogspot.com/-hEenbTD1pA8/VmCMRNaNSyI/AAAAAAAABT8/upVA-3HCt3c/s1600/EUR_USD.png)
