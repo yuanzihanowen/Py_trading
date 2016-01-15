@@ -12,3 +12,5 @@ Based on my research during my 2-month research project during 2012 summer, the 
 
 
 ![PnL_backtested](http://4.bp.blogspot.com/-hEenbTD1pA8/VmCMRNaNSyI/AAAAAAAABT8/upVA-3HCt3c/s1600/EUR_USD.png)
+
+The chart below is the backtested Pnl for this trading strategy.
